@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(27, 29, 196);
+    color: ghostwhite;
+    text-align: center;
+}
+nav{
+    background-color: rgb(112, 165, 226);
+}
+section{
+    background-color: rgb(169, 216, 243);
+    grid-column: 1/2;
+}
+aside{
+    background-color: rgb(187, 213, 247);
+    grid-column:4/5 ;
+}
+footer{
+    background-color: rgb(64, 228, 220);
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1Ifr 1Ifr 1Ifr 1Ifr;
+}
+body{
+    background-color: rgb(14, 13, 12);
+}
+h4{
+    background-color: white;
+}
